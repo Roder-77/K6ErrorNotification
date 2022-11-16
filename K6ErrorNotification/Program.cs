@@ -21,7 +21,7 @@ namespace K6ErrorNotification
                 return;
             }
 
-            var type = Assembly.GetExecutingAssembly().GetTypes()
+            var type = Assembly.GetExecutingAssembly().GetExportedTypes()
                 .FirstOrDefault(x => x.IsClass && !x.IsAbstract && x.Name.Equals(args[0], StringComparison.OrdinalIgnoreCase));
 
             if (type is null)

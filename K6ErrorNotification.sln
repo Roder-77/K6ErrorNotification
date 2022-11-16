@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K6ErrorNotification", "K6ErrorNotification\K6ErrorNotification.csproj", "{E4D9B103-4FAB-464F-8F9E-64F64773F3E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K6ErrorNotification", "K6ErrorNotification\K6ErrorNotification.csproj", "{E4D9B103-4FAB-464F-8F9E-64F64773F3E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
